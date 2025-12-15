@@ -71,28 +71,12 @@ Sigmoid
 
 Example training output:
 
+Epoch 1/5 - Loss: 0.41505332359042135
+Epoch 2/5 - Loss: 0.16485231398902073
+Epoch 3/5 - Loss: 0.11346031854360346
+Epoch 4/5 - Loss: 0.08798602432336143
+Epoch 5/5 - Loss: 0.07325041538302762
 
-Epoch 1 - Loss: 0.69
-Epoch 2 - Loss: 0.54
-Epoch 3 - Loss: 0.41
-
-
----
-
-## Project Structure
-
-├── layers/
-│ ├── base.py
-│ ├── conv.py
-│ ├── dense.py
-│ ├── reshape.py
-│ └── activations.py
-├── losses/
-│ └── binary_cross_entropy.py
-├── model.py
-├── train.py
-├── utils.py
-└── README.md
 
 ---
 
