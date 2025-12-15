@@ -81,7 +81,6 @@ Epoch 3 - Loss: 0.41
 
 ## Project Structure
 
-.
 ├── layers/
 │ ├── base.py
 │ ├── conv.py
@@ -94,7 +93,6 @@ Epoch 3 - Loss: 0.41
 ├── train.py
 ├── utils.py
 └── README.md
-
 
 ---
 
