@@ -1,4 +1,14 @@
-# CNN from Scratch – MNIST (0 vs 1)
+<div align="center">
+
+# 🧠 CNN from Scratch – MNIST (0 vs 1)
+
+**A Convolutional Neural Network implemented from scratch**  
+Focused on understanding **convolution**, **gradients**, and **backpropagation**  
+without using deep learning frameworks.
+
+**Python • NumPy • SciPy • From Scratch**
+
+</div>
 
 This repository contains an **independent implementation of a Convolutional Neural Network built from scratch**, focusing on the mathematical foundations of convolution, gradients, and backpropagation.
 
