@@ -27,16 +27,16 @@ To keep training time low and make the learning process clear, the MNIST problem
 
 ## Key Concepts Implemented
 
-- Cross-correlation vs real convolution
-- Convolutional layer forward propagation
-- Backpropagation through convolution
-  - Kernel gradients
-  - Input gradients
-- Sigmoid activation and its derivative
-- Binary Cross-Entropy loss
-- Reshape layer to connect Conv → Dense
-- Fully connected (Dense) layers
-- Manual training loop (no auto-diff)
+- Cross-correlation vs real convolution.
+- Convolutional layer forward propagation.
+- Backpropagation through convolution.
+  - Kernel gradients.
+  - Input gradients.
+- Sigmoid activation and its derivative.
+- Binary Cross-Entropy loss.
+- Reshape layer to connect Conv → Dense.
+- Fully connected (Dense) layers.
+- Manual training loop (no auto-diff).
 
 ---
 
@@ -63,9 +63,9 @@ Sigmoid
 ## Dataset
 
 - Dataset: **MNIST**
-- Only digits **0 and 1** are used
-- Images are normalized to the range [0, 1]
-- The dataset is downloaded automatically when running the training script
+- Only digits **0 and 1** are used.
+- Images are normalized to the range [0, 1].
+- The dataset is downloaded automatically when running the training script.
 
 > MNIST is used for data loading only.  
 > All neural network layers, forward passes, and backward passes are implemented manually.
@@ -74,10 +74,10 @@ Sigmoid
 
 ## Training
 
-- Training is done using CPU only
-- A small subset of MNIST is used to reduce computation time
-- Binary Cross-Entropy is used as the loss function
-- Gradients are computed manually using backpropagation
+- Training is done using CPU only.
+- A small subset of MNIST is used to reduce computation time.
+- Binary Cross-Entropy is used as the loss function.
+- Gradients are computed manually using backpropagation.
 
 Example training output:
 
@@ -94,19 +94,19 @@ Example training output:
 Training a full CNN from scratch on all 10 MNIST classes is computationally expensive on CPU.
 
 Reducing the task to **0 vs 1** allows:
-- Faster experimentation
-- Clearer understanding of gradients
-- Focus on correctness instead of optimization
+- Faster experimentation.
+- Clearer understanding of gradients.
+- Focus on correctness instead of optimization.
 
 ---
 
 ## Notes & Future Work
 
 Possible extensions:
-- Add max-pooling layer
-- Extend to 10-class classification (Softmax + Categorical Cross-Entropy)
-- Add padding and stride
-- Improve performance with vectorization
+- Add max-pooling layer.
+- Extend to 10-class classification (Softmax + Categorical Cross-Entropy).
+- Add padding and stride.
+- Improve performance with vectorization.
 
 ---
 
