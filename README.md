@@ -120,5 +120,4 @@ All code was written and structured independently for educational purposes.
 
 ## Author
 
-Ahmed Monir Almassri
-Computer Engineering Student at IUG – Focus on Applied Machine Learning and Data Engineering
+Ahmed Monir Almassri | Computer Engineering Student at IUG – Focus on Applied Machine Learning and Data Engineering.
